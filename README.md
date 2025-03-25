@@ -1,29 +1,42 @@
-# Brain-Tumor-Detector
-Building a detection model using a convolutional neural network in Tensorflow & Keras.<br>
-Used a brain MRI images data founded on Kaggle. You can find it [here](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection).<br>
+<h1 align=center>🧠 Glioblastoma Detection from fMRI Images 🩺</h1>
+<p align=center>
+We created a model that detects glioblastoma tumours from fMRI images<br>
+The purpose of the model is to serve as a tool for physicians to be able to detect the liklihood or onset of glioblastomas from fMRI images.<br> </p>
 
-**About the data:**<br>
-The dataset contains 2 folders: yes and no which contains 253 Brain MRI Images. The folder yes contains 155 Brain MRI Images that are tumorous and the folder no contains 98 Brain MRI Images that are non-tumorous.
+## Background Information
+<p align=center> fMRI is a neuroimaging technique ... to be continued<br></p>
 
-# Getting Started
+## Model 
+<img src="Training_samples.png" alt="Number of training samples in the batch" width=410px height= 200px align=center>
 
-**Note:** sometimes viewing IPython notebooks using GitHub viewer doesn't work as expected, so you can always view them using [nbviewer](https://nbviewer.jupyter.org/).
+## Limitations of the Model
+<p align=center>
+The model currently has an accuracy score of <b>84%</b> and a F1 score of <b>82%</b><br>
+These numbers can be further improved on to result in higher accuracy percentages.<br></p>
 
-## Data Augmentation:
+## Future Directions
+We can further improve our model by incorporating more datasets.<br>
+We can also broaden the tool's ability to detect from a wider range of tumors, such as meningomas, pituitary, etc.
 
-**Why did I use data augmentation?**
+## Datasets
+We used a couple of datasets from:<br>
+https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection<br>
+https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri<br>
 
-Since this is a small dataset, There wasn't enough examples to train the neural network. Also, data augmentation was useful in taclking the data imbalance issue in the data.<br>
+## Acknowledgments
+This project uses parts of [Brain Tumor Detection](https://github.com/MohamedAliHabib/Brain-Tumor-Detection), which is licensed under the Apache License 2.0.
 
-Further explanations are found in the Data Augmentation notebook.
+Copyright 2019 Mohammad Ali Habib
 
-Before data augmentation, the dataset consisted of:<br>
-155 positive and 98 negative examples, resulting in 253 example images.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
 
-After data augmentation, now the dataset consists of:<br>
-1085 positive and 980 examples, resulting in 2065 example images.
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
-**Note:** these 2065 examples contains also the 253 original images. They are found in folder named 'augmented data'.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 ## Data Preprocessing
 
@@ -64,52 +77,10 @@ Firstly, I applied transfer learning using a ResNet50 and vgg-16, but these mode
 
 So why not try a simpler architecture and train it from scratch. And it worked :)
 
-# Training the model
-The model was trained for 24 epochs and these are the loss & accuracy plots:
-
-
-![Loss plot](Loss.PNG)
-
-
-![Accuracy plot](Accuracy.PNG)
-
-The best validation accuracy was achieved on the 23rd iteration.
-
 # Results
 
 Now, the best model (the one with the best validation accuracy) detects brain tumor with:<br>
 
-**88.7%** accuracy on the **test set**.<br>
-**0.88** f1 score on the **test set**.<br>
-These resutls are very good considering that the data is balanced.
-
-**Performance table of the best model:**
-
-| <!-- -->  | Validation set | Test set |
-| --------- | -------------- | -------- |
-| Accuracy  | 91%            | 89%      |
-| F1 score  | 0.91           | 0.88     |
-
-
-# Final Notes
-
-What's in the files?
-
-1. The code in the IPython notebooks.
-2. The weights for all the models. The best model is named as 'cnn-parameters-improvement-23-0.91.model'.
-3. The models are stored as *.model* files. They can be restored as follows:
-
-
-```
-from tensorflow.keras.models import load_model
-best_model = load_model(filepath='models/cnn-parameters-improvement-23-0.91.model')
-```
-
-4. The original data in the folders named 'yes' and 'no'. And, the augmented data in the folder named 'augmented data'.
-
-
-Contributes are welcome!
-<br>Thank you!
-
-
+**84.71%** accuracy on the **test set**.<br>
+**0.81** f1 score on the **test set**.<br>
 
