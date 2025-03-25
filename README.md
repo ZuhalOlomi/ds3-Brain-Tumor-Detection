@@ -23,21 +23,6 @@ We used a couple of datasets from:<br>
 https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection<br>
 https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri<br>
 
-## Acknowledgments
-This project uses parts of [Brain Tumor Detection](https://github.com/MohamedAliHabib/Brain-Tumor-Detection), which is licensed under the Apache License 2.0.
-
-Copyright 2019 Mohammad Ali Habib
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at:
-
-[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-
 ## Data Preprocessing
 
 For every image, the following preprocessing steps were applied:
@@ -83,4 +68,21 @@ Now, the best model (the one with the best validation accuracy) detects brain tu
 
 **84.71%** accuracy on the **test set**.<br>
 **0.81** f1 score on the **test set**.<br>
+
+## Acknowledgments
+We acknowledge the wonderful brains of ds3 for providing us the opportunity to collaborate and work on a machine learning project. <br>
+Additionally, <br>
+This project uses parts of [Brain Tumor Detection](https://github.com/MohamedAliHabib/Brain-Tumor-Detection), which is licensed under the Apache License 2.0.
+
+Copyright 2019 Mohammad Ali Habib
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
