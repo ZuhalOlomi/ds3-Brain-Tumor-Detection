@@ -1,7 +1,7 @@
 <h1 align=center>🧠 Glioblastoma Detection from fMRI Images 🩺</h1>
 <p align=center>
-We created a model that detects glioblastoma tumours from fMRI images<br>
-The purpose of the model is to serve as a tool for physicians to be able to detect the liklihood or onset of glioblastomas from fMRI images.<br> </p>
+For a DS3 project, we worked on displaying and analyzing the results of an fMRI-based tumor detection model.<br>
+The model itself is designed as a tool to help physicians assess the likelihood of glioblastomas<br> </p>
 
 ## Background Information
 <p align=center> fMRI is a neuroimaging technique ... to be continued<br></p>
