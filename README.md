@@ -68,6 +68,8 @@ Now, the best model (the one with the best validation accuracy) detects brain tu
 
 **84.71%** accuracy on the **test set**.<br>
 **0.81** f1 score on the **test set**.<br>
+![Accuracy](Accuracy.png)
+![Loss](Loss.png)
 
 ## Acknowledgments
 We acknowledge the wonderful brains of ds3 for providing us the opportunity to collaborate and work on a machine learning project. <br>
