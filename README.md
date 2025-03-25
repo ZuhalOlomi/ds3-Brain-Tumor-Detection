@@ -53,9 +53,9 @@ The data was split in the following way:
 2. 15% of the data for validation.
 3. 15% of the data for testing.
 
-# Neural Network Architecture
+# Neural Network Architecture Implemented
 
-This is the architecture that I've built:
+This is the architecture:
 
 ![Neural Network Architecture](convnet_architecture.jpg)
 
