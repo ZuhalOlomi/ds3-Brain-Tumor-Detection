@@ -68,8 +68,8 @@ Now, the best model (the one with the best validation accuracy) detects brain tu
 
 **84.71%** accuracy on the **test set**.<br>
 **0.81** f1 score on the **test set**.<br>
-<img src="Accuracy.png" alt="Accuracy" width=410px height= 200px align=center>
-<img src="Loss.png" alt="Loss" width=410px height= 200px align=center>
+<img src="Accuracy.png" alt="Accuracy" width=450px height= 400px align=center>
+<img src="Loss.png" alt="Loss" width=450px height= 400px align=center>
 
 ## Acknowledgments
 We acknowledge the wonderful brains of ds3 for providing us the opportunity to collaborate and work on a machine learning project. <br>
