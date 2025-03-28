@@ -17,7 +17,7 @@ These numbers can be further improved on to result in higher accuracy percentage
 ## Future Directions
 - We can further improve our model by incorporating more datasets.<br>
 - We can also broaden the tool's ability to detect from a wider range of tumors, such as meningomas, pituitary, etc.<br>
-- Implement other types of neuroimaging scans such as PET, CT, etc. <br>
+- Implement other types of neuroimaging methods such as PET, CT, etc. <br>
 - Attain more images of the brain that are saggital, and coronal.
 
 ## Datasets
