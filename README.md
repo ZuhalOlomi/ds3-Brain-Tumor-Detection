@@ -1,6 +1,6 @@
 <h1 align=center>🧠 Glioblastoma Detection from fMRI Images 🩺</h1>
 <p align=center>
-For a DS3 project, we worked on displaying and analyzing the results of an fMRI-based tumor detection model.<br>
+For a DS3 project, me and a couple of friends worked on displaying and analyzing the results of an fMRI-based tumor detection model.<br>
 The model itself is designed as a tool to help physicians assess the likelihood of glioblastomas<br> </p>
 
 ## Background Information
