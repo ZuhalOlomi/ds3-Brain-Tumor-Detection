@@ -10,13 +10,15 @@ Regardless of type, tumor growth in the brain can increase intracranial pressure
 Among adult-type diffuse gliomas, there are three subtypes: astrocytoma, oligodendroglioma, and glioblastoma. The focus for this model is on glioblastomas, as they are the most aggressive and fast-growing form, requiring urgent and specialized treatment<br></p>
 
 ## Limitations of the Model
-<p align=center>
-The model currently has an accuracy score of <b>84%</b> and a F1 score of <b>82%</b><br>
+<p align=left>
+The model presented an accuracy score of <b>84%</b> and an F1 score of <b>82%</b><br>
 These numbers can be further improved on to result in higher accuracy percentages.<br></p>
 
 ## Future Directions
-We can further improve our model by incorporating more datasets.<br>
-We can also broaden the tool's ability to detect from a wider range of tumors, such as meningomas, pituitary, etc.
+- We can further improve our model by incorporating more datasets.<br>
+- We can also broaden the tool's ability to detect from a wider range of tumors, such as meningomas, pituitary, etc.<br>
+- Implement other types of neuroimaging scans such as PET, CT, etc. <br>
+- Attain more images of the brain that are saggital, and coronal.
 
 ## Datasets
 We used a couple of datasets from:<br>
@@ -76,7 +78,7 @@ We acknowledge the wonderful brains of ds3 for providing us the opportunity to c
 Additionally, <br>
 This project uses parts of [Brain Tumor Detection](https://github.com/MohamedAliHabib/Brain-Tumor-Detection), which is licensed under the Apache License 2.0.
 
-Copyright 2019 Mohammad Ali Habib
+Copyright 2019 Mohamed Ali Habib
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
