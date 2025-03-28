@@ -4,10 +4,10 @@ For a DS3 project, we worked on displaying and analyzing the results of an fMRI-
 The model itself is designed as a tool to help physicians assess the likelihood of glioblastomas<br> </p>
 
 ## Background Information
-<p align=center> fMRI is a neuroimaging technique ... to be continued<br></p>
-
-## Model 
-<img src="Training_samples.png" alt="Number of training samples in the batch" width=410px height= 200px align=center>
+<p align=left> 
+Glioblastomas (GBs) are a type of malignant, glial, primary brain tumor. Brain tumors can be either cancerous (malignant), which spread to other parts of the body, or noncancerous (benign), which grow slowly and do not spread.<br>
+Regardless of type, tumor growth in the brain can increase intracranial pressure, which can become fatal and life-threatening quickly. Brain tumors are classified based on their origin (primary or metastatic), cell type (glial or non-glial), and cancerous status (benign or malignant).<br>
+Among adult-type diffuse gliomas, there are three subtypes: astrocytoma, oligodendroglioma, and glioblastoma. The focus for this model is on glioblastomas, as they are the most aggressive and fast-growing form, requiring urgent and specialized treatment<br></p>
 
 ## Limitations of the Model
 <p align=center>
